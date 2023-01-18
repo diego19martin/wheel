@@ -52,27 +52,16 @@ span{
 }
 
 .span1{
-    clip-path: polygon(0 17%, 0 50%, 50% 50%);
+    clip-path: polygon(0 35%, 0 120%, 50% 50%);
     background-color: rgb(106, 1, 155);
 }
 .span2{
-    clip-path: polygon(0 17%, 30% 0, 50% 50%);
+    clip-path: polygon(-20% 45%, 30% 0, 50% 50%);
     background-color: rgb(255, 0, 234);
 }
 .span3{
-    clip-path: polygon(30% 0, 71% 0%,50% 50%);
+    clip-path: polygon(30% 0, 100% 0%, 50% 50%);
     background-color: rgb(58, 15, 78);
-}
-.span4{
-    clip-path: polygon(71% 0, 100% 18%, 50% 50%);
-    background-color: rgb(141, 27, 118);
-}
-.span5{
-    clip-path: polygon(100% 18%, 100% 50%, 50% 50%);
-    background-color: rgb(231, 95, 175);
-}
-.box2 .span3 {
-    background-color: rgb(56, 1, 88);
 }
 
 .box2{
@@ -91,83 +80,53 @@ span{
 
 .box1 .span1 h5{
     position: absolute;
-    top: 40%;
-    right: 63%;
-    transform: rotate(200deg);
+    top: 60%;
+    right: 60%;
+    transform: rotate(155deg);
     text-align: center;
 }
 
 .box1 .span2 h5{
     position: absolute;
-    top: 23%;
-    right: 57%;
-    transform: rotate(-130deg);
+    top: 28%;
+    right: 56%;
+    transform: rotate(-138deg);
     text-align: center;
 }
 
 .box1 .span3 h5{
     position: absolute;
-    top: 20%;
-    right: 35%;
+    top: 15%;
+    right: 30%;
     transform: rotate(-90deg);
     text-align: center;
 }
 
-.box1 .span4 h5{
-    position: absolute;
-    top: 25%;
-    right: 14%;
-    transform: rotate(-45deg);
-    text-align: center;
-}
-
-.box1 .span5 h5{
-    position: absolute;
-    top: 40%;
-    right: 6%;
-    transform: rotate(-15deg);
-    text-align: center;
-}
 
 .box2 .span1 h5{
     position: absolute;
-    top: 38%;
-    right: 70%;
-    transform: rotate(200deg);
+    top: 60%;
+    right: 60%;
+    transform: rotate(160deg);
     text-align: center;
 }
 
 .box2 .span2 h5{
     position: absolute;
-    top: 22%;
+    top: 28%;
     right: 60%;
-    transform: rotate(-130deg);
+    transform: rotate(-135deg);
     text-align: center;
 }
 
 .box2 .span3 h5{
     position: absolute;
-    top: 15%;
-    right: 45%;
-    transform: rotate(270deg);
+    top: 17%;
+    right: 28%;
+    transform: rotate(279deg);
     text-align: center;
 }
 
-.box2 .span4 h5{
-    position: absolute;
-    top: 18%;
-    right: 20%;
-    transform: rotate(310deg);
-    text-align: center;
-}
-
-.box2 .span5 h5{
-    position: absolute;
-    top: 38%;
-    right: 6%;
-    transform: rotate(-20deg);
-    text-align: center;
-}
 
 .spin{
     position: absolute;
