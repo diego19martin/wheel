@@ -32,7 +32,7 @@ function spin(){
    
 
     let results = shuffle([
-        cincoMil[1],
+        cincoMil[5],
         diezMil[0],
         tucson[0],
         quinientos[0],
