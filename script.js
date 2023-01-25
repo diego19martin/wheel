@@ -69,14 +69,14 @@ function spin(){
             },
             height: '80px',
             width: "300px"
+        }).then((result)=> {
+            if (result.isConfirmed) {
+                location.reload();
+            }
         })
     }, 5500)
 
-    setTimeout(function(){
-        location.reload();
-        // box.style.setProperty("transition", "initial");
-        // box.style.transform = "rotate(90deg)";
-    }, 8000)
+
 
 }
 
