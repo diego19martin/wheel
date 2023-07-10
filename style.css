@@ -17,9 +17,11 @@ body{
 
    
     }
+
+    .swal2-popup {
+        top: -140;
+    }
    
-
-
 
 .container {
     
@@ -206,6 +208,8 @@ audio {
         height: 370px;
         margin-top: -180px;
     }
+
+    
 
     .target{
         /* border: solid; */

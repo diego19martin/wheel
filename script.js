@@ -62,13 +62,14 @@ function spin(){
     setTimeout(function(){
         Swal.fire({
             title: 'Felicitaciones!',
-            text: 'Ganaste ' + SelectedItem,
+            text: 'Gracias por participar!',
             // target: '#custom-target',
             customClass: {                      // <------ customClass is an object!
                 container: 'position-absolute'
             },
             height: '80px',
-            width: "300px"
+            width: "300px",
+            position: 'top',
         }).then((result)=> {
             if (result.isConfirmed) {
                 location.reload();
